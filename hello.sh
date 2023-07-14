@@ -14,7 +14,18 @@ echo "Setup an Temperature"
 read degree
 echo "The weather is \"$degree\" today."
 
+echo "\n"
 
+echo "Enter a number:"
+read num
+
+if ((num > 0)); then
+  echo "The number is positive."
+elif ((num < 0)); then
+  echo "The number is negative."
+else
+  echo "The number is zero."
+fi
 
 echo "End of the Terminal"
 
