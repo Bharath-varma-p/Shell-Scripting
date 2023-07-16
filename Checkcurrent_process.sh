@@ -7,8 +7,6 @@ command
 
 
 
-#!/bin/bash
-
 echo "Please enter the process name I will check it for you if it is runnig or not:"
 read -r process_name
 
