@@ -15,7 +15,7 @@ backup_files() {
         fi
     done
 
-    echo "Backup completed."
+    echo "Backup completed     ."
 }
 
 # Main script
